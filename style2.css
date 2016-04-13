@@ -41,7 +41,7 @@ aside {
   float: right;
   color: #ffb15e;
 
-  background-color: #8e3634; 
+  background-color: #c63631; 
 }
 .opposite{
   width: 38%;
@@ -57,10 +57,10 @@ aside {
 }
 .emptybar {
   padding: 10px;
-  background-image: -webkit-linear-gradient(top, #8e3634, #ff8147); 
-  background-image:    -moz-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:     -ms-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:      -o-linear-gradient(top, #8e3634 , #ff8147); 
+  background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+  background-image:    -moz-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:     -ms-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:      -o-linear-gradient(top, #c63631 , #ff8147);  
   border-radius: 7px;
 }
 
@@ -100,10 +100,10 @@ nav ul li {
 .extrastuff {
   margin-top: -50px;
   color: red;
- background-image: -webkit-linear-gradient(top, #8e3634, #ff8147); 
-  background-image:    -moz-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:     -ms-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:      -o-linear-gradient(top, #8e3634 , #ff8147);   
+ background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+  background-image:    -moz-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:     -ms-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:      -o-linear-gradient(top, #c63631 , #ff8147);   
   border-radius: 7px;
 }
 
@@ -128,10 +128,10 @@ nav ul li {
   background-color: #379146;
   border-radius: 7px;
   padding: 15px;
- background-image: -webkit-linear-gradient(top, #8e3634, #ff8147); 
-  background-image:    -moz-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:     -ms-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:      -o-linear-gradient(top, #8e3634 , #ff8147); 
+  background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+  background-image:    -moz-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:     -ms-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:      -o-linear-gradient(top, #c63631 , #ff8147);  
 
 }
 header h1 {
@@ -156,10 +156,11 @@ body {
   padding:2.618em;
   border-radius: 7px;        
 }
+/*main ribbon*/
 .ribbon {
   font-size: 40px !important;
   position: relative;
-  background: #379146;
+  background-color: #c63631;
   color: #ffe35b;
   text-align: center;
   padding: 1em 2em; 
@@ -171,7 +172,7 @@ body {
   position: absolute;
   display: block;
   bottom: -1em;
-  border: 1.5em solid #307f3d;
+  border: 1.5em solid #ad2f2b; /*snake tongue part of the ribbon!*/
   z-index: -1;
 }
 .ribbon:before {
@@ -189,7 +190,7 @@ body {
   position: absolute;
   display: block;
   border-style: solid;
-  border-color: #1b4722 transparent transparent transparent;
+  border-color: #822320 transparent transparent transparent;
   bottom: -1em;
 }
 .ribbon .ribbon-content:before {
@@ -205,6 +206,7 @@ body {
   letter-spacing: 4px;
   text-shadow: 2px 2px #2e3030;
 }
+/*main ribbon end*/
 
 div.img {
     margin: 10px;
@@ -245,6 +247,7 @@ div.desc {
   right: -6px;
 }
 
+/* start top corner ribbon*/
 .ribbon-green {
   font: bold 15px Sans-Serif;
   color: #333;
@@ -260,11 +263,12 @@ div.desc {
   top: 30px;
   width: 240px;
   background-color: #BFDC7A;
- background-image: -webkit-linear-gradient(top, #8e3634, #ff8147); 
-  background-image:    -moz-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:     -ms-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:      -o-linear-gradient(top, #8e3634 , #ff8147);  
-  color: #6a6340;
+ background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+   background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+  background-image:    -moz-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:     -ms-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:      -o-linear-gradient(top, #c63631 , #ff8147);   
+  color: #fffd9e;
   -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
   -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
   box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
@@ -310,11 +314,12 @@ div.desc {
   top: -75px;
   width: 240px;
   background-color: #BFDC7A;
-background-image: -webkit-linear-gradient(top, #8e3634, #ff8147); 
-  background-image:    -moz-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:     -ms-linear-gradient(top, #8e3634 , #ff8147); 
-  background-image:      -o-linear-gradient(top, #8e3634 , #ff8147);  
-  color: #6a6340;
+  background-image: -webkit-gradient(linear, right top, right bottom, from(#c63631), to(#ff8147)); 
+  background-image: -webkit-linear-gradient(top, #c63631, #ff8147); 
+  background-image:    -moz-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:     -ms-linear-gradient(top, #c63631 , #ff8147); 
+  background-image:      -o-linear-gradient(top, #c63631 , #ff8147); 
+  color: #fffd9e;
   -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
   -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
   box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
@@ -335,7 +340,7 @@ background-image: -webkit-linear-gradient(top, #8e3634, #ff8147);
 .ribbon-green2:after {
   left: 0;
 }
-
+/* end top corner ribbon*/
 
 
 footer {

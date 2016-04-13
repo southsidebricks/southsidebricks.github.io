@@ -113,10 +113,12 @@ body {
   border-radius: 7px;
   font-family: 'GlacialIndifferenceRegular', sans-serif;        
 }
+
+/*main ribbon*/
 .ribbon {
   font-size: 40px !important;
   position: relative;
-  background: #c63631;
+  background-color: #c63631;
   color: #ffe35b;
   text-align: center;
   padding: 1em 2em; 
@@ -129,7 +131,7 @@ body {
   position: absolute;
   display: block;
   bottom: -1em;
-  border: 1.5em solid #ad2f2b;
+  border: 1.5em solid #ad2f2b;     /*snake tongue part of the ribbon!*/
   z-index: -1;
 }
 .ribbon:before {
@@ -164,6 +166,7 @@ body {
 	letter-spacing: 4px;
 	text-shadow: 2px 2px #2e3030;
 }
+/*main ribbon end*/
 
 div.img {
     margin: 10px;
