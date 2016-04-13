@@ -1,0 +1,33 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', arial;
+	background-image: url("images/legif1.gif"); 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-color: #379146; 
+	margin: 0;
+	display: table;
+}
+
+.container {
+	display: table-cell;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+a:active, a:hover, a:visited, a:link {
+	text-decoration: none; 
+	color: #000; 
+}
+
+a:hover {
+	font-weight: bold;
+	color:red;
+	background-color: orange; 
+}
