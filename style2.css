@@ -1,4 +1,5 @@
-/*KEEP*/
+  
+  /*page name/navbar*/
   #header {
     background-color: black;
     cursor: default;
@@ -6,7 +7,6 @@
     height: 4em;
     line-height: 6em;
     width: 100%;
-    z-index: 10000;
   }
 
 #header .nameTitle{
@@ -14,11 +14,6 @@
   height: 2em;
   line-height: 2em;
 }
-
-
-
-
-
 
 
     #header h1 {
@@ -55,9 +50,19 @@
           margin-left: 1em;
           padding-left: 0;
         }
-        /*KEEP END*/
 
-/* Basic */
+    ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+  }
+
+    ul li {
+      padding-left: 0.5em;
+    }
+
+
+/* picture/page text */
   body {
     
     font-family: "Raleway", Helvetica, sans-serif;
@@ -65,17 +70,14 @@
     font-weight: 400;
     line-height: 1.65em;
   }
-
+/*body background*/
   body {
     background-image: url("images/dark-tint.png"), url("images/lego-background.jpg");
     background-size: cover;
     background-position: top center;
   }
 
-
-/* Type */
-
-
+ /*link hover*/
   a {
     color: white;
     text-decoration: none;
@@ -86,32 +88,11 @@
       border-bottom-color: transparent;
     }
 
-
-  ul {
-    list-style: disc;
-    margin: 0 0 2em 0;
-    padding-left: 1em;
-  }
-
-    ul li {
-      padding-left: 0.5em;
-    }
-
  
-
-/* Table */
-
-
-/* Thumbnails */
+/* Thumbnails (images)*/
 
   .thumbnails {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-flex-direction: row;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
     position: relative;
     margin-left: 3%;
@@ -119,9 +100,6 @@
   }
 
     .thumbnails a {
-      -moz-transition: all 0.2s ease;
-      -webkit-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
       transition: all 0.2s ease;
       border-bottom: none;
       display: block;
@@ -150,17 +128,10 @@
         background-color: #421616;
         box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
       }
-`
+
     .thumbnails > div {
-      display: -moz-flex;
-      display: -webkit-flex;
-      display: -ms-flex;
       display: flex;
-      -moz-flex-direction: column;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
       flex-direction: column;
-      width: calc(100% / 3);
       padding-left: 2em;
     }
 
