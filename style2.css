@@ -86,6 +86,7 @@
     a:hover {
       color: #fffd9e;
       border-bottom-color: transparent;
+      cursor: default;
     }
 
  
